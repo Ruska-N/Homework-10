@@ -39,3 +39,58 @@
 .burger-bar {
     display: none;
 }
+
+/* section 2 styles */
+
+.section-1 {
+    max-width: 1184px;
+    width: 90%;
+    padding: 64px 0;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.section-1-left {
+    width: 412px;
+}
+.main-title {
+    font-size: 69px;
+    font-weight: bold;
+}
+.title-text {
+    font-size: 18px;
+    line-height: 28.8px;
+    margin: 43px 0;
+    color: #19182580;
+}
+.title-buttons {
+    display: flex;
+    column-gap: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.get-started {
+    width: 141px;
+    height: 49px;
+    background-color: #5D50C6;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-demo {
+    width: 141px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    border: 1px groove;
+    border-radius: 100px;
+}
+
+
+.main-photo {
+    width: 100%;
+}
