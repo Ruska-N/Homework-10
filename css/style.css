@@ -1,0 +1,41 @@
+/* header styles */
+
+.header-div {
+    max-width: 1184px;
+    width: 90%;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    width: 428px;
+    column-gap: 64px;
+}
+.sign-buttons {
+    display: flex;
+    align-items: center;
+}
+.login {
+    width: 115px;
+    height: 49px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up {
+    width: 115px;
+    height: 49px;
+    border-radius: 100px;
+    background-color: #5D50C6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger-bar {
+    display: none;
+}

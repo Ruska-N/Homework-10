@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+    .burger-bar {
+        display: flex;
+    }
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .burger-bar {
+        order: 2;
+    }
+    .logo {
+        order: 1;
+    }
+    .sign-buttons {
+        display: none;
+    }
+}
