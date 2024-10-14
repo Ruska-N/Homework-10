@@ -55,6 +55,18 @@
     .section-4-block {
         text-align: center;
     }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+        row-gap: 64px;
+    }
+    .company-info {
+        width: 100%;
+    }
+    .footer-columns {
+        width: 100%;
+    }
 }
 
 @media (max-width: 430px) {
@@ -108,5 +120,14 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 32px;
+    }
+
+    /* footer */
+    .footer-columns {
+        flex-direction: column;
+        row-gap: 64px;
+    }
+    .ul-list {
+        display: none;
     }
 }
