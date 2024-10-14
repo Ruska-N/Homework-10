@@ -37,7 +37,22 @@
         flex-direction: column-reverse;
         row-gap: 8px;
     }
-    
+
+    /* section 3 */
+    .section-3 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-3-block {
+        width: 100%;
+        text-align: center;
+    }
+    .ratings {
+        width: 832px;
+    }
+    .company-rate {
+        width: 400px;
+    }
 }
 
 @media (max-width: 430px) {
@@ -70,5 +85,19 @@
     .section-2-photo-blocks {
         flex-direction: column;
         row-gap: 32px;
+    }
+
+    /* section 3 */
+    .section-3 {
+        width: 95%;
+    }
+    .ratings {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+    }
+    .company-rate {
+        width: 100%;
     }
 }

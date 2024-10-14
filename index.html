@@ -40,7 +40,7 @@
       <div class="section-1">
         <div class="section-1-left">
           <h1 class="main-title">Travel top destination of the world</h1>
-          <p class="title-text">
+          <p class="title-text text">
             We always make our customer happy by providing as many choices as
             possible
           </p>
@@ -78,7 +78,12 @@
         <div class="section-2-photo-blocks">
           <div class="resort-block">
             <div>
-              <img class="beach" src="images/beach.jpg" alt="beach" />
+              <picture>
+                <source media="(min-width: 1024px)" srcset="images/beach.jpg" />
+                <source media="(min-width: 430px)" srcset="images/beach2.jpg" />
+                <source media="(min-width: 350px)" srcset="images/beach3.jpg" />
+                <img class="beach" src="images/beach.jpg" alt="beach" />
+              </picture>
             </div>
             <div class="photo-block-descr">
               <div class="resort-descr">
@@ -96,7 +101,12 @@
           </div>
           <div class="resort-block">
             <div>
-              <img class="fish" src="images/fish.jpg" alt="fish" />
+              <picture>
+                <source media="(min-width: 1024px)" srcset="images/fish.jpg" />
+                <source media="(min-width: 430px)" srcset="images/fish2.jpg" />
+                <source media="(min-width: 350px)" srcset="images/fish3.jpg" />
+                <img class="fish" src="images/fish.jpg" alt="fish" />
+              </picture>
             </div>
             <div class="photo-block-descr">
               <div class="resort-descr">
@@ -114,7 +124,21 @@
           </div>
           <div class="resort-block">
             <div>
-              <img class="cloud" src="images/clouds.jpg" alt="cloud" />
+              <picture>
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="images/clouds.jpg"
+                />
+                <source
+                  media="(min-width: 430px)"
+                  srcset="images/clouds2.jpg"
+                />
+                <source
+                  media="(min-width: 350px)"
+                  srcset="images/clouds3.jpg"
+                />
+                <img class="cloud" src="images/clouds.jpg" alt="clouds" />
+              </picture>
             </div>
             <div class="photo-block-descr">
               <div class="resort-descr">
@@ -122,7 +146,7 @@
                   <h2 class="resort-title">Mountain View, Above the cloud</h2>
                   <h2 class="resort-price">$150.99</h2>
                 </div>
-                <p class="resort-city">United Arab Emeries </p>
+                <p class="resort-city">United Arab Emeries</p>
               </div>
               <div class="resort-rate">
                 <p class="rate-value">5.0</p>
@@ -133,7 +157,42 @@
         </div>
       </div>
     </section>
-    <section></section>
+    <section>
+      <div class="section-3">
+        <div class="girl-photo">
+          <img class="girl" src="images/girl.jpg" alt="girl" />
+        </div>
+        <div class="section-3-block">
+          <div class="section-3-titles">
+            <h4 class="pink-title">Travel Point</h4>
+            <h2 class="explore-title">We helping you find your dream location</h2>
+            <p class="title-text section-3-text">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC.
+            </p>
+          </div>
+          <div class="ratings">
+            <div class="company-rate">
+              <h5 class="numbers">500+</h5>
+              <p class="info">Holiday Package</p>
+            </div>
+            <div class="company-rate">
+              <h5 class="numbers">100</h5>
+              <p class="info">Luxury Hotel</p>
+            </div>
+            <div class="company-rate">
+              <h5 class="numbers">7</h5>
+              <p class="info">Premium Airlines</p>
+            </div>
+            <div class="company-rate">
+              <h5 class="numbers">2k+</h5>
+              <p class="info">Happy Customer</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
     <section></section>
     <footer></footer>
   </body>
