@@ -21,6 +21,23 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* section 2 */
+    .section-2-title-block {
+        flex-direction: column;
+        row-gap: 64px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .photo-block-descr {
+        width: 100%;
+    }
+    .price-div {
+        flex-direction: column-reverse;
+        row-gap: 8px;
+    }
+    
 }
 
 @media (max-width: 430px) {
@@ -44,5 +61,14 @@
     }
     .watch-demo {
         width: 100%;
+    }
+
+    /* section 2 */
+    .arrows {
+        justify-content: space-around;
+    }
+    .section-2-photo-blocks {
+        flex-direction: column;
+        row-gap: 32px;
     }
 }
